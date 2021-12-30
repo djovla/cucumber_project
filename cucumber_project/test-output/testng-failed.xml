@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="stepdefinitions.Login">
+        <methods>
+          <include name="tc_002_Click_Institution_Radion_Button"/>
+          <include name="tc_004_Refresh_Page"/>
+          <include name="tc_001_launch_TDD_application"/>
+          <include name="BrowserLaunch"/>
+          <include name="tc_003_Click_Institution_Continue_GetMessage_Button"/>
+          <include name="tc_006_Type_Invalid_ZIPPIN_Input"/>
+          <include name="tc_007_Click_Continue_Button"/>
+          <include name="scrrenshot"/>
+          <include name="tc_005_Type_Invalid_Address_Line2_Input"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- stepdefinitions.Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
